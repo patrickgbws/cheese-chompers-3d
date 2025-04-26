@@ -1,0 +1,113 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js / React / Vite 构建产物
+.next/
+dist/
+out/
+
+# VSCode / IDE 配置
+.vscode/
+.idea/
+
+# bun 缓存
+.bun/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# log文件
+*.log
+
+# 本地缓存
+.cache/
+
+# 其他无关文件
+AppData/
+
+
+# 忽略 Windows AppData
+AppData/
+# 忽略系统缓存
+*.log
+*.tmp
+*.bak
+# 忽略 Bun / NodeJS 缓存
+.bun/
+node_modules/
+# 忽略 IDE配置
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# 忽略 bun 安装缓存
+.bun/
+.bun-install/
+
+# 忽略 Windows 系统文件夹
+AppData/
+Desktop.ini
+Thumbs.db
+
+# 忽略 node_modules
+node_modules/
+
+# 忽略 next.js 构建产物
+.next/
+.next-prod/
+
+# 忽略日志
+*.log
+
+# 其他
+.vscode/
+dist/
+build/
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vscode
+.vscode
+.next-prod
